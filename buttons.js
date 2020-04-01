@@ -25,18 +25,18 @@ function newGame2() {
     fill(255);
     textSize(areaAdjust / 10);
     // textFont("Impact, Charcoal, sans-serif");
-	textFont("Arial");
+	textFont("Helvetica");
     if (gates.length == 0){
       text("Reset", this.x, this.y)
     } else {
     text("Start", this.x, this.y)
-    fill(255, 0, 255, 255);
+    fill(71, 86, 89, 255);
     textSize(areaAdjust / 25);
     strokeWeight(0);
     stroke(0);
 	// nostroke();
 	textAlign(CENTER, TOP);
-    text('Use "w a s d" or arrow keys \nor touch screen to play', this.x, height * 15 / 20);
+    text('Make sure Alan is healthy! Touch Screen to get Alan what he needs or use your Arrow Keys.', this.x, height * 15 / 20);
 
     }
     pop(); // I don't think this does anything this pop is called elsewhere
