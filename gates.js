@@ -27,7 +27,7 @@ function Gate(x, y, direction) {
     sort(sortedTime);
 
     noStroke();
-    fill(0, 255, 0, 80);
+    fill(126, 73, 61, 80);
     if (this.timeleft > 120) {
     rect(this.x - this.w/2, this.y - this.h / 2, this.w, this.h);
   } else if (this.timeleft % 10 < 5 && this.timeleft == sortedTime[0]) {
