@@ -29,7 +29,7 @@ function preload(){
   img3 = loadImage("bski4.gif");
   img4 = loadImage("bski5.gif");
   upFlag = loadImage("upFlag.gif");
-  downFlag = loadImage("downFlag.gif");
+  downFlag = loadImage("downFlag-01.png");
   rightFlag = loadImage("rightFlag.gif");
   leftFlag = loadImage("leftFlag.gif");
   ice = loadImage("ice.jpg");
