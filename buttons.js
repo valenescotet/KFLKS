@@ -20,7 +20,7 @@ function newGame2() {
     noStroke();
     textAlign(CENTER, CENTER);
     rectMode(CENTER);
-    fill(0, 255, 0, 255);
+    fill(38, 44, 45, 255);
     rect(this.x, this.y, this.w, this.h, this.w / 20);
     fill(255);
     textSize(areaAdjust / 10);
