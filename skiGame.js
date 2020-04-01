@@ -33,7 +33,7 @@ function preload(){
   rightFlag = loadImage("rightFlag.png");
   leftFlag = loadImage("leftFlag.png");
   ice = loadImage("ice.jpg");
-  sand = loadImage("sand2.gif");
+  sand = loadImage("sand2.png");
   soundOn = loadImage("soundOn.gif");
   soundOff = loadImage("soundOff.gif");
   gateSound = loadSound("gateSound.mp3");
