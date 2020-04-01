@@ -28,10 +28,10 @@ function preload(){
   img2 = loadImage("bski3.png");
   img3 = loadImage("bski4.png");
   img4 = loadImage("bski5.png");
-  upFlag = loadImage("upFlag.gif");
-  downFlag = loadImage("downFlag-01.png");
-  rightFlag = loadImage("rightFlag.gif");
-  leftFlag = loadImage("leftFlag.gif");
+  upFlag = loadImage("upFlag.png");
+  downFlag = loadImage("downFlag.png");
+  rightFlag = loadImage("rightFlag.png");
+  leftFlag = loadImage("leftFlag.png");
   ice = loadImage("ice.jpg");
   sand = loadImage("sand2.gif");
   soundOn = loadImage("soundOn.gif");
