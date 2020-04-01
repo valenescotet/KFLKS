@@ -24,10 +24,10 @@ var areaAdjustAdjust;
 
 
 function preload(){
-  img1 = loadImage("bski2.gif");
-  img2 = loadImage("bski3.gif");
-  img3 = loadImage("bski4.gif");
-  img4 = loadImage("bski5.gif");
+  img1 = loadImage("bski2.png");
+  img2 = loadImage("bski3.png");
+  img3 = loadImage("bski4.png");
+  img4 = loadImage("bski5.png");
   upFlag = loadImage("upFlag.gif");
   downFlag = loadImage("downFlag-01.png");
   rightFlag = loadImage("rightFlag.gif");
