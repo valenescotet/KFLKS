@@ -2,6 +2,11 @@
 author: Michael Grace
 */
 
+function preload(){
+myFont2 = loadFont("https://valenescotet.github.io/KFLKS/BlogScript.otf");
+}
+
+
 function newGame2() {
   this.x = width / 2;
   this.y = height / 6;
