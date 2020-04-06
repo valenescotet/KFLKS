@@ -234,7 +234,7 @@ function gameover() {
   textSize(width * 0.1);
   fill(50);
   if (score > highScore){
-    text("NEW HIGH SCORE!!!", width / 2, height / 2 + height / 4);
+    text("NEW HIGH SCORE!", width / 2, height / 2 + height / 4);
   }
   ngame.show();
 //  noLoop();
