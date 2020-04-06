@@ -30,7 +30,7 @@ function newGame2() {
     fill(255);
 	//textFont("myFont2");
     textSize(areaAdjust / 10);
-    textFont("BlogScript.otf");
+    textFont("Tahoma");
     if (gates.length == 0){
       text("Reset", this.x, this.y)
     } else {
