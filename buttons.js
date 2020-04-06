@@ -36,8 +36,8 @@ function newGame2() {
     stroke(0);
 	// nostroke();
 	textAlign(CENTER, TOP);
-    text('Make sure Alan is healthy!', this.x, height * 15 / 20)
-    text('Touch Screen to get Alan what he needs or use your Arrow Keys.', this.x, height * 10 / 15);
+    text('Touch Screen or use Arrow Keys to make sure Alan is healthy.', this.x, height * 15 / 20)
+    text('Make sure Alan is healthy!', this.x, height * 10 / 15);
     }
     pop(); // I don't think this does anything this pop is called elsewhere
   }
