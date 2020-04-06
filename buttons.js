@@ -2,9 +2,14 @@
 author: Michael Grace
 */
 
-//function preload(){
-//myFont2 = loadFont("https://valenescotet.github.io/KFLKS/BlogScript.otf");
-//}
+function preload(){
+myFont2 = loadFont("https://valenescotet.github.io/KFLKS/BlogScript.otf");
+}
+
+function setup() {
+ textFont(myFont);
+//  areaAdjust = sqrt(width * height);
+}
 
 
 function newGame2() {
@@ -30,7 +35,7 @@ function newGame2() {
     fill(255);
        textSize(areaAdjust / 10);
     // textFont("Impact, Charcoal, sans-serif");
-	textFont("HelveticaNeue");
+	//textFont("HelveticaNeue");
     if (gates.length == 0){
       text("Reset", this.x, this.y)
     } else {
