@@ -28,17 +28,17 @@ function newGame2() {
     fill(38, 44, 45, 255);
     rect(this.x, this.y, this.w, this.h, this.w / 20);
     fill(255);
+	textFont("myFont2");
     textSize(areaAdjust / 10);
     // textFont("Impact, Charcoal, sans-serif");
-	textFont("myFont2");
     if (gates.length == 0){
       text("Reset", this.x, this.y)
     } else {
     text("Start", this.x, this.y)
     fill(71, 86, 89, 255);
     textSize(areaAdjust / 25);
-   // strokeWeight(0);
-   // stroke(0);
+   strokeWeight(0);
+   stroke(0);
 	// nostroke();
 	textAlign(CENTER, TOP);
     text('Make sure Alan is healthy!', this.x, height * 15 / 20)
