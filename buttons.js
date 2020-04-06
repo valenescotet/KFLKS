@@ -2,16 +2,6 @@
 author: Michael Grace
 */
 
-//function preload(){
-//myFont2 = loadFont("https://valenescotet.github.io/KFLKS/BlogScript.otf");
-//}
-
-//function setup() {
- //textFont(myFont2);
-//areaAdjust = sqrt(width * height);
-//}
-
-
 function newGame2() {
   this.x = width / 2;
   this.y = height / 6;
@@ -33,21 +23,21 @@ function newGame2() {
     fill(38, 44, 45, 255);
     rect(this.x, this.y, this.w, this.h, this.w / 20);
     fill(255);
-       textSize(areaAdjust / 10);
+    textSize(areaAdjust / 10);
     // textFont("Impact, Charcoal, sans-serif");
-	textFont("HelveticaNeue");
+	textFont("Helvetica");
     if (gates.length == 0){
-      text("reset", this.x, this.y)
+      text("Reset", this.x, this.y)
     } else {
-    text("start", this.x, this.y)
+    text("Start", this.x, this.y)
     fill(71, 86, 89, 255);
     textSize(areaAdjust / 25);
-   strokeWeight(0);
-   stroke(0);
+    strokeWeight(0);
+    stroke(0);
 	// nostroke();
 	textAlign(CENTER, TOP);
-    text('make sure Alan is healthy!', this.x, height * 15 / 20)
-    text('touch screen or use arrow keys.', this.x, height * 10 / 15);
+    text('Touch Screen or use Arrow Keys to make sure Alan is healthy.', this.x, height * 15 / 20)
+    text('Make sure Alan is healthy!', this.x, height * 10 / 15);
     }
     pop(); // I don't think this does anything this pop is called elsewhere
   }
