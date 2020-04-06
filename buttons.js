@@ -7,7 +7,7 @@ myFont2 = loadFont("https://valenescotet.github.io/KFLKS/BlogScript.otf");
 }
 
 function setup() {
- textFont(myFont);
+ textFont(myFont2);
 //  areaAdjust = sqrt(width * height);
 }
 
