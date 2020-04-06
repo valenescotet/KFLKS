@@ -39,6 +39,8 @@ function preload(){
   gateSound = loadSound("gateSound.mp3");
   levelSound = loadSound("levelSound.mp3");
   myFont = loadFont("https://valenescotet.github.io/KFLKS/BlogScriptLight.otf");
+  myFont2 = loadFont("https://valenescotet.github.io/KFLKS/BlogScript.otf");
+
  // myFont = loadFont("https://valenescotet.github.io/KFLKS/BlogScriptLight.otf?raw=true");	    
 	//myFont = loadFont("https://mikenotintheflesh.github.io/SkiGame/impact.ttf?raw=true");
 
