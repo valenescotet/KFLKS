@@ -30,13 +30,13 @@ function newGame2() {
       text("RESET", this.x, this.y)
     } else {
     text("PLAY", this.x, this.y)
-    fill(71, 86, 89, 255);
+    fill(0);
     textSize(areaAdjust / 25);
-    strokeWeight(0);
-    stroke(0);
+    //strokeWeight(0);
+   // stroke(0);
 	// nostroke();
 	textAlign(CENTER, TOP);
-    text('Make sure Alan is healthy!', this.x, height * 10 / 20)
+    text('Make sure Alan is healthy!', this.x, height * 7 / 10)
     text('Touch Screen or use Arrow Keys', this.x, height * 10 / 15);
     }
     pop(); // I don't think this does anything this pop is called elsewhere
