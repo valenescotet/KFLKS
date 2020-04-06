@@ -20,7 +20,7 @@ function newGame2() {
     noStroke();
     textAlign(CENTER, CENTER);
     rectMode(CENTER);
-    fill(38, 44, 45, 255);
+    fill(0);
     rect(this.x, this.y, this.w, this.h, this.w / 20);
     fill(255);
     textSize(areaAdjust / 10);
@@ -36,7 +36,7 @@ function newGame2() {
    // stroke(0);
 	// nostroke();
 	textAlign(CENTER, TOP);
-    text('Make sure Alan is healthy!', this.x, height * 7 / 10)
+    text('Make sure Alan is healthy!', this.x, height * 36 / 5)
     text('Touch Screen or use Arrow Keys', this.x, height * 10 / 15);
     }
     pop(); // I don't think this does anything this pop is called elsewhere
