@@ -1,9 +1,6 @@
 /*
 author: Michael Grace
 */
-function preload(){
-myFont2 = loadFont("https://valenescotet.github.io/KFLKS/BlogScript.otf");
-}
 
 function Skier() {
   this.x = width / 2;
