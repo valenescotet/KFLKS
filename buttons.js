@@ -2,9 +2,9 @@
 author: Michael Grace
 */
 
-function preload(){
-myFont2 = loadFont("https://valenescotet.github.io/KFLKS/BlogScript.otf");
-}
+//function preload(){
+//myFont2 = loadFont("https://valenescotet.github.io/KFLKS/BlogScript.otf");
+//}
 
 
 function newGame2() {
