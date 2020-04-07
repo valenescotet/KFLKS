@@ -34,8 +34,8 @@ function preload(){
   leftFlag = loadImage("leftFlag.png");
   ice = loadImage("ice.jpg");
   sand = loadImage("sand2.png");
-  soundOn = loadImage("soundOn.gif");
-  soundOff = loadImage("soundOff.gif");
+  soundOn = loadImage("soundOn.png");
+  soundOff = loadImage("soundOff.png");
   gateSound = loadSound("gateSound.mp3");
   levelSound = loadSound("levelSound.mp3");
   myFont = loadFont("https://valenescotet.github.io/KFLKS/BlogScriptLight.otf");
