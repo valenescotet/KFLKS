@@ -20,9 +20,9 @@ function newGame2() {
     noStroke();
     textAlign(CENTER, CENTER);
     rectMode(CENTER);
-    fill(255,69,89,255);
+    fill(255,69,89);
     rect(this.x, this.y, this.w * 3 / 4 , this.h, this.w / 25);
-    fill(255);
+    fill(95,0,10);
     textSize(areaAdjust / 15);
     // textFont("Impact, Charcoal, sans-serif");
 	textFont("Helvetica, sans-serif");
@@ -30,7 +30,7 @@ function newGame2() {
       text("RESET", this.x, this.y)
     } else {
     text("PLAY", this.x, this.y)
-    fill(0);
+    fill(95,0,10);
     textSize(areaAdjust / 30);
     //strokeWeight(0);
    // stroke(0);
