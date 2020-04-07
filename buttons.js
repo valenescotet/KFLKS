@@ -25,13 +25,13 @@ function newGame2() {
     fill(255);
     textSize(areaAdjust / 15);
     // textFont("Impact, Charcoal, sans-serif");
-	textFont("Arial");
+	textFont("Helvetica, sans-serif");
     if (gates.length == 0){
       text("RESET", this.x, this.y)
     } else {
     text("PLAY", this.x, this.y)
     fill(0);
-    textSize(areaAdjust / 25);
+    textSize(areaAdjust / 27);
     //strokeWeight(0);
    // stroke(0);
 	// nostroke();
