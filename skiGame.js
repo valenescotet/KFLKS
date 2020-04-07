@@ -223,7 +223,7 @@ function keyPressed() {
 
 function gameover() {
   textSize(width * 0.2);
-  fill(255, 0, 0, 255);
+  fill(255, 69, 89, 255);
   rectMode(CENTER);
   textAlign(CENTER);
   // textFont("Impact, Charcoal, sans-serif");
