@@ -23,7 +23,7 @@ function newGame2() {
     fill(0);
     rect(this.x, this.y, this.w, this.h, this.w / 20);
     fill(255);
-    textSize(areaAdjust / 10);
+    textSize(areaAdjust / 15);
     // textFont("Impact, Charcoal, sans-serif");
 	textFont("HelveticaNeue");
     if (gates.length == 0){
