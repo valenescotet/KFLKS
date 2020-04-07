@@ -31,7 +31,7 @@ function newGame2() {
     } else {
     text("PLAY", this.x, this.y)
     fill(0);
-    textSize(areaAdjust / 27);
+    textSize(areaAdjust / 30);
     //strokeWeight(0);
    // stroke(0);
 	// nostroke();
