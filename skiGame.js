@@ -114,7 +114,7 @@ function draw() {
   soundIcon.show();
 
   // textFont("Impact, Charcoal, sans-serif");
-  fill(0);
+  fill(95, 0, 10);
   textSize(areaAdjust / 20);
   text("Score: " + round(score), width / 60, height / 10);
   textSize(areaAdjust / 30);
