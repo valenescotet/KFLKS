@@ -21,11 +21,11 @@ function newGame2() {
     textAlign(CENTER, CENTER);
     rectMode(CENTER);
     fill(0);
-    rect(this.x, this.y, this.w /2 , this.h, this.w / 25);
+    rect(this.x, this.y, this.w * 3 / 4 , this.h, this.w / 25);
     fill(255);
     textSize(areaAdjust / 15);
     // textFont("Impact, Charcoal, sans-serif");
-	textFont("HelveticaNeue");
+	textFont("Arial");
     if (gates.length == 0){
       text("RESET", this.x, this.y)
     } else {
