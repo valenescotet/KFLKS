@@ -22,7 +22,7 @@ function newGame2() {
     rectMode(CENTER);
     fill(255,69,89);
     rect(this.x, this.y, this.w * 3 / 4 , this.h, this.w / 25);
-    fill(95,0,10);
+    fill(255,218,222);
     textSize(areaAdjust / 15);
     // textFont("Impact, Charcoal, sans-serif");
 	textFont("Helvetica, sans-serif");
