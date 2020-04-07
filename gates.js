@@ -1,5 +1,5 @@
 /*
-author: Michael Grace
+author: Valentina Escotet
 */
 
 function Gate(x, y, direction) {
